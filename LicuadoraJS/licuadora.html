@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/licuadora.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!--corrige el error 404 de favicon.icon-->  
+    <title>Licuadora en JS</title>
+</head>
+<body>
+    <div class="container"> <!--contenedor de la licuadora-->
+        <div id="blender" class="blender"> <!--la licuadora en sí-->
+            <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div> <!--botón de la licuadora-->
+        </div>
+    </div>
+    <audio id="blender-button-sound" src="sounds/sound_botonLicuadora.mp3" type="audio/mpeg"></audio>
+    <audio id="blender-sound" src="sounds/sound_licuadora.mp3" type="audio/mpeg" loop></audio> <!--loop no dejará que se pagué el sonido hasta que lo hagamos manualamente-->
+
+    <script src="JS/licuadora.js"></script>"
+</body>
+</html>
